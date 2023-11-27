@@ -1,47 +1,72 @@
 /*FRIENDS*/
 
 .last {
-    text-align: right;
-  }
-  h1 {
-    text-align: center;
-    font-size: 22px;
-  }
-  h2 {
-    text-align: center;
-  }
-  #backtomain {
-    font-style: italic;
-  }
-  caption {
-    text-align: center;
-  }
-  
-  table {
-    width: 50%;
-    border-collapse: collapse;
-    margin: 17px;
-    table-layout: auto;
-  }
-  
-  th,
-  td {
-    padding: 10px;
-    border: 2px dotted #0b0217;
-    text-align: center;
-  }
-  
+  text-align: right;
+}
+h1 {
+  text-align: center;
+  font-size: 22px;
+}
+h2 {
+  text-align: center;
+}
+#backtomain {
+  font-style: italic;
+}
+caption {
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 17px;
+  table-layout: auto;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 2px dotted #0b0217;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+}
+
+.gray {
+  background-color: gray;
+}
+.white {
+  background-color: white;
+}
+
+/*Large devices*/
+@media (min-width: 992px) {
   th {
-    text-align: center;
-    background-color: green;
-    color: white;
-    font-weight: 600;
+    font-size: 130%;
   }
-  
-  .gray {
-    background-color: gray;
+  td {
+    font-size: 120%;
   }
-  .white {
-    background-color: white;
+}
+
+/*Midium devices*/
+@media (max-width: 992px) and (min-width: 768px) {
+  th {
+    font-size: 120%;
   }
-  
+  td {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 767px) {
+  th {
+    font-size: 110%;
+  }
+}
