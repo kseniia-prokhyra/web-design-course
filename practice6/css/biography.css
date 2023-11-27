@@ -1,140 +1,360 @@
 /*BIOGRAPHY*/
 h1 {
-    text-align: center;
-    font-size: 22px;
+  text-align: center;
+  font-size: 22px;
+}
+#backtomain {
+  font-style: italic;
+}
+#heading {
+  text-align: center;
+}
+
+article {
+  font-size: 120%;
+  margin-bottom: 30px;
+}
+
+div {
+  border: solid black 1px;
+}
+
+.article1 {
+  background-color: #00ffff;
+}
+
+.article2 {
+  background-color: #cba1af;
+}
+
+.article3 {
+  background-color: lightskyblue;
+}
+
+.article4 {
+  background-color: midnightblue;
+}
+
+.article5 {
+  background-color: orange;
+}
+
+h2 {
+  font-size: 140%;
+  padding-left: 10px;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.toheading {
+  font-weight: 600;
+}
+.autobiography {
+  text-transform: uppercase;
+}
+#basic {
+  background-color: blue;
+  color: azure;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
+  border: 1px dotted white;
+  margin-bottom: 1px;
+}
+#basic:hover {
+  background-color: magenta;
+  color: black;
+}
+#basic:active {
+  background-color: yellow;
+  color: green;
+}
+
+#child {
+  background-color: blue;
+  color: azure;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
+  border: 1px dotted white;
+  margin-bottom: 1px;
+}
+#child:hover {
+  background-color: magenta;
+  color: black;
+}
+#child:active {
+  background-color: yellow;
+  color: green;
+}
+
+#school {
+  background-color: blue;
+  color: azure;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
+  border: 1px dotted white;
+  margin-bottom: 1px;
+}
+#school:hover {
+  background-color: magenta;
+  color: black;
+}
+#school:active {
+  background-color: yellow;
+  color: green;
+}
+#after {
+  background-color: blue;
+  color: azure;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
+  border: 1px dotted white;
+  margin-bottom: 1px;
+}
+#after:hover {
+  background-color: magenta;
+  color: black;
+}
+#after:active {
+  background-color: yellow;
+  color: green;
+}
+#uni {
+  background-color: blue;
+  color: azure;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
+  border: 1px dotted white;
+  margin-bottom: 1px;
+}
+#uni:hover {
+  background-color: magenta;
+  color: black;
+}
+#uni:active {
+  background-color: yellow;
+  color: green;
+}
+/*paragraths*/
+#basicinfo {
+  background-color: aqua;
+  color: blue;
+}
+#childh {
+  background-color: rgb(203, 161, 175);
+  color: darkmagenta;
+}
+#schooly {
+  background-color: lightskyblue;
+  color: darkgoldenrod;
+}
+#aftersch {
+  background-color: midnightblue;
+  color: wheat;
+}
+#univ {
+  background-color: orange;
+  color: darkgreen;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Large devices*/
+@media (min-width: 992px) {
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
-  #backtomain {
-    font-style: italic;
+
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
-  #heading {
-    text-align: center;
+
+  .col-lg-1 {
+    width: 8.33%;
   }
-  
-  article {
-    font-size: 120%;
+  .col-lg-2 {
+    width: 16.66%;
   }
-  
-  h2 {
-    font-size: 140%;
+  .col-lg-3 {
+    width: 25%;
   }
-  
-  .toheading {
-    font-weight: 600;
+  .col-lg-4 {
+    width: 33.33%;
   }
-  .autobiography {
-    text-transform: uppercase;
+  .col-lg-5 {
+    width: 41.66%;
   }
-  #basic {
-    background-color: blue;
-    color: azure;
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    text-align: center;
-    border: 1px dotted white;
-    margin-bottom: 1px;
+  .col-lg-6 {
+    width: 50%;
   }
-  #basic:hover {
-    background-color: magenta;
-    color: black;
+  .col-lg-7 {
+    width: 58.33%;
   }
-  #basic:active {
-    background-color: yellow;
-    color: green;
+  .col-lg-8 {
+    width: 66.66%;
   }
-  
-  #child {
-    background-color: blue;
-    color: azure;
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    text-align: center;
-    border: 1px dotted white;
-    margin-bottom: 1px;
+  .col-lg-9 {
+    width: 75%;
   }
-  #child:hover {
-    background-color: magenta;
-    color: black;
+  .col-lg-10 {
+    width: 83.33%;
   }
-  #child:active {
-    background-color: yellow;
-    color: green;
+  .col-lg-11 {
+    width: 91.66%;
   }
-  
-  #school {
-    background-color: blue;
-    color: azure;
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    text-align: center;
-    border: 1px dotted white;
-    margin-bottom: 1px;
+  .col-lg-12 {
+    width: 100%;
   }
-  #school:hover {
-    background-color: magenta;
-    color: black;
+}
+
+/*Midium devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
-  #school:active {
-    background-color: yellow;
-    color: green;
+
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-  #after {
-    background-color: blue;
-    color: azure;
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    text-align: center;
-    border: 1px dotted white;
-    margin-bottom: 1px;
+
+  .col-md-1 {
+    width: 8.33%;
   }
-  #after:hover {
-    background-color: magenta;
-    color: black;
+  .col-md-2 {
+    width: 16.66%;
   }
-  #after:active {
-    background-color: yellow;
-    color: green;
+  .col-md-3 {
+    width: 25%;
   }
-  #uni {
-    background-color: blue;
-    color: azure;
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    text-align: center;
-    border: 1px dotted white;
-    margin-bottom: 1px;
+  .col-md-4 {
+    width: 33.33%;
   }
-  #uni:hover {
-    background-color: magenta;
-    color: black;
+  .col-md-5 {
+    width: 41.66%;
   }
-  #uni:active {
-    background-color: yellow;
-    color: green;
+  .col-md-6 {
+    width: 50%;
   }
-  /*paragraths*/
-  #basicinfo {
-    background-color: aqua;
-    color: blue;
+  .col-md-7 {
+    width: 58.33%;
   }
-  #childh {
-    background-color: rgb(203, 161, 175);
-    color: darkmagenta;
+  .col-md-8 {
+    width: 66.66%;
   }
-  #schooly {
-    background-color: lightskyblue;
-    color: darkgoldenrod;
+  .col-md-9 {
+    width: 75%;
   }
-  #aftersch {
-    background-color: midnightblue;
-    color: wheat;
+  .col-md-10 {
+    width: 83.33%;
   }
-  #univ {
-    background-color: orange;
-    color: darkgreen;
+  .col-md-11 {
+    width: 91.66%;
   }
-  
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
