@@ -1,0 +1,140 @@
+/*BIOGRAPHY*/
+h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  #backtomain {
+    font-style: italic;
+  }
+  #heading {
+    text-align: center;
+  }
+  
+  article {
+    font-size: 120%;
+  }
+  
+  h2 {
+    font-size: 140%;
+  }
+  
+  .toheading {
+    font-weight: 600;
+  }
+  .autobiography {
+    text-transform: uppercase;
+  }
+  #basic {
+    background-color: blue;
+    color: azure;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border: 1px dotted white;
+    margin-bottom: 1px;
+  }
+  #basic:hover {
+    background-color: magenta;
+    color: black;
+  }
+  #basic:active {
+    background-color: yellow;
+    color: green;
+  }
+  
+  #child {
+    background-color: blue;
+    color: azure;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border: 1px dotted white;
+    margin-bottom: 1px;
+  }
+  #child:hover {
+    background-color: magenta;
+    color: black;
+  }
+  #child:active {
+    background-color: yellow;
+    color: green;
+  }
+  
+  #school {
+    background-color: blue;
+    color: azure;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border: 1px dotted white;
+    margin-bottom: 1px;
+  }
+  #school:hover {
+    background-color: magenta;
+    color: black;
+  }
+  #school:active {
+    background-color: yellow;
+    color: green;
+  }
+  #after {
+    background-color: blue;
+    color: azure;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border: 1px dotted white;
+    margin-bottom: 1px;
+  }
+  #after:hover {
+    background-color: magenta;
+    color: black;
+  }
+  #after:active {
+    background-color: yellow;
+    color: green;
+  }
+  #uni {
+    background-color: blue;
+    color: azure;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border: 1px dotted white;
+    margin-bottom: 1px;
+  }
+  #uni:hover {
+    background-color: magenta;
+    color: black;
+  }
+  #uni:active {
+    background-color: yellow;
+    color: green;
+  }
+  /*paragraths*/
+  #basicinfo {
+    background-color: aqua;
+    color: blue;
+  }
+  #childh {
+    background-color: rgb(203, 161, 175);
+    color: darkmagenta;
+  }
+  #schooly {
+    background-color: lightskyblue;
+    color: darkgoldenrod;
+  }
+  #aftersch {
+    background-color: midnightblue;
+    color: wheat;
+  }
+  #univ {
+    background-color: orange;
+    color: darkgreen;
+  }
+  

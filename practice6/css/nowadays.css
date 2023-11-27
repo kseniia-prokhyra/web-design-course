@@ -1,0 +1,27 @@
+/*NOWADAYS*/
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  #backtomain {
+    font-style: italic;
+  }
+  h2 {
+    text-align: center;
+  }
+  .gray {
+    background-color: gray;
+  }
+  .white {
+    background-color: white;
+  }
+  
+  .frying {
+    background-color: khaki;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
