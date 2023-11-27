@@ -2,7 +2,7 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-
+    <link rel="stylesheet" href="./css/gallery.css" />
     <title>Gallery</title>
   </head>
   <body>
@@ -11,15 +11,27 @@
 
     <h2>Мої зображення</h2>
 
-    <h3 id="smaller">Зображення у цій папці</h3>
-    <img src="./placeholder1.gif" alt="picture" />
-    <h3 id="bigger">Зображення у папці</h3>
+    <div class="row">
+      <div class="photo col-lg-4 col-md-6 col-sm-12">
+        <h3 id="smaller">Зображення у цій папці</h3>
+        <img src="./placeholder1.gif" alt="picture" />
+      </div>
+      <div class="photo col-lg-4 col-md-6 col-sm-12">
+        <h3 id="bigger">Зображення у папці</h3>
 
-    <img src="./img/placeholder2.gif" alt="picture" />
+        <img src="./img/placeholder2.gif" alt="picture" />
+      </div>
 
-    <h3 id="online">Зображення онлайн</h3>
-    <a href="https://place-hold.it/1280x1024/#0087" target="_blank"
-      >Зображення онлайн</a
-    >
+      <div class="photo col-lg-4 col-md-12 col-sm-12">
+        
+          <h3 id="online">Зображення онлайн</h3>
+          <div class="online-photo">
+          <a href="https://place-hold.it/1280x1024/#0087" target="_blank"
+            >Зображення онлайн</a
+          >
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
