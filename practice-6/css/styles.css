@@ -1,0 +1,42 @@
+/*INDEX*/
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 120%;
+  }
+  /*Biograthy*/
+  .biography:link {
+    color: greenyellow;
+  }
+  .biography:visited {
+    color: red;
+  }
+  /*Nowadays*/
+  .nowadays:link {
+    color: aquamarine;
+  }
+  .nowadays:link {
+    color: purple;
+  }
+  .nowadays:visited {
+    color: indigo;
+  }
+  /*Friends*/
+  .friends:link {
+    color: yellow;
+  }
+  .friends:visited {
+    color: black;
+  }
+  /*Gallery*/
+  .gallery:link {
+    color: orangered;
+  }
+  .gallery:visited {
+    color: blue;
+  }
+  
